@@ -1,5 +1,5 @@
 # Data-Driven-System-Identifiacation-for-LTI-systems
-In this repository, algorithms for system identification are developed and implemented for LTI systems.
+In this repository, algorithms for system identification by subspace methods are developed and implemented for LTI systems.
 
 In SysID.m, a full algorithm for LTI system identification can be found in the first section of the code. It supports systems with any order, input & output dimensions, unknown initial conditions and persistently excited inputs (random inputs are used for convenience here). It also works for corrupted measurements or even nonlinear systems by capturing their linear dynamics to approximate. 
 
