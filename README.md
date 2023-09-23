@@ -17,4 +17,3 @@ FP_cal_N4SID.m : It finds A,C matrices of a system from a response with random i
 HankelfromImpulse.m : It reconstruted A,B,C,D matrices for an impulse response, assuming the system has zero D matrix. 
 
 SysIdf_fullstates_measurement.m : It reconstruted A,B,C,D matrices of a system when we have full measurement to all its states and outputs. To do this task, we need to know the system order beforehands. It supports unkown initial conditions and random inputs.
-
