@@ -12,7 +12,7 @@ The algorithm for the whole sytem ID could be broken down into a few steps and t
 
 SysIdf_free_response.m : It finds A,C matrices of a system from a free response of a system and its corresponding initial conditions.
 
-FP_cal_N4SID.m : It finds A,C matrices of a system from a response with random inputs and unknown initial conditions by calculating the free response of the system using N4ISD algorithm. No constraints on the LTI system.
+FP_cal_N4SID.m : It finds A,C matrices of a system from a response with random inputs and unknown initial conditions by calculating the free response of the system using N4SID algorithm. No constraints on the LTI system.
 
 HankelfromImpulse.m : It reconstruted A,B,C,D matrices for an impulse response, assuming the system has zero D matrix. 
 
